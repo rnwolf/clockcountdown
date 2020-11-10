@@ -1,17 +1,20 @@
 # Countdown Clock
 
+A useful facilitator tool to create a highly visible countdown clock for timeboxing workshop activities. 
+
 This python script should work on most computers with a recent (tested on 3.8 & 3.9) version of python installed.
 
 ## Install
 
-Install git and a recent verison of python.
+Install a recent version of [Python](https://www.python.org/downloads/) and optionally [Git](https://git-scm.com/downloads) version control.
 
-Clone or copy zip folder with repository files from github and extract to local working directory.
+Clone, with git, or dlownload a [zip](https://github.com/rnwolf/clockcountdown/releases) folder with repository files from github and extract to local working directory.
 
 ## To Run
 
-In the working directory:
+Open the local working directory in your terminal command shell. MS-Windows users see this link to open shell [https://www.digitalcitizen.life/open-cmd](https://www.digitalcitizen.life/open-cmd).
 
+In the shell run:
 ``` python
 python clockcountdown.py 5
 ```
@@ -19,7 +22,7 @@ Will launch python and run the script. Countdown will proceed for 5 minutes.
 
 Minimise the countdown app window to pause the clock.
 
-![Screenshot of countdown on windows desktop.](Screenshot2020-11-09_120541.png)
+<img src="run_clock_countdown.gif" width="600">
 
 ## Tips for quick launching of countdown timers
 
